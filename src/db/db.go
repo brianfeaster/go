@@ -1,3 +1,7 @@
+#
+# Comment
+#
+
 package main
 
 import (
