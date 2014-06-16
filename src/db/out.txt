@@ -1,0 +1,4 @@
+2014-06-16 16:18:05.830552612 -0700 PDT
+ERROR: stmt.Exec() pq: S:"ERROR" C:"42P07" M:"relation \"data\" already exists" F:"heap.c" L:"1047" R:"heap_create_with_catalog"
+insert into data values ('brian feaster', 42)
+ERROR: stmt.Exec() pq: S:"ERROR" C:"23505" D:"Key (name)=(brian feaster       ) already exists." s:"public" F:"nbtinsert.c" L:"398" M:"duplicate key value violates unique constraint \"data_pkey\"" t:"data" n:"data_pkey" R:"_bt_check_unique"
